@@ -24,16 +24,14 @@ The instructions for this Challenge are divided into the following subsections:
    that can identify the creditworthiness of borrowers.
    
 2. **The results**:
-                   precision    recall  f1-score   support
+   precision, recall, f1-score, support:
+     - Class 0: 1.00, 1.00, 1.00, 22511
+     - Class 1: 0.87, 0.91, 0.89, 750
+   accuracy: 0.99, 23261 
+   macro avg: 0.93, 0.95, 0.94, 23261
+   weighted avg: 0.99, 0.99, 0.99, 23261
 
-           0       1.00      1.00      1.00     22511
-           1       0.87      0.91      0.89       750
-
-    accuracy                           0.99     23261
-   macro avg       0.93      0.95      0.94     23261
-weighted avg       0.99      0.99      0.99     23261
-
-3. **A summary**jupyter: I would recommend this model.Overall, this model operates with a superb level of success. Class 0 (healthy loan) has perfect scores across the board for precision, recall, & f1-score. Class 1 (high risk loan) 
+4. **A summary**jupyter: I would recommend this model.Overall, this model operates with a superb level of success. Class 0 (healthy loan) has perfect scores across the board for precision, recall, & f1-score. Class 1 (high risk loan) 
    performs at a slightly lower rate, but still strong (precision:0.87, recall:0.91, & f1:0.89). Both classes presenting with such high scores, puts the accuracy and weighted avg at 0.99.
 
 ### Resources
