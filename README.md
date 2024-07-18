@@ -32,7 +32,7 @@ The instructions for this Challenge are divided into the following subsections:
          - macro avg: 0.93, 0.95, 0.94, 23261
          - weighted avg: 0.99, 0.99, 0.99, 23261
 
-4. **A summary**jupyter: I would recommend this model.Overall, this model operates with a superb level of success. Class 0 (healthy loan) has perfect scores across the board for precision, recall, & f1-score. Class 1 (high risk loan) 
+4. **A summary**: I would recommend this model.Overall, this model operates with a superb level of success. Class 0 (healthy loan) has perfect scores across the board for precision, recall, & f1-score. Class 1 (high risk loan) 
    performs at a slightly lower rate, but still strong (precision:0.87, recall:0.91, & f1:0.89). Both classes presenting with such high scores, puts the accuracy and weighted avg at 0.99.
 
 ### Resources
